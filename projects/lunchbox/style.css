@@ -9,6 +9,7 @@ header > h1 {
   font-size: 5em;
   text-align: center;
   color: #6fcb9f;
+  margin-bottom: 0;
 }
 header > nav > ul {
   list-style-type: none;
