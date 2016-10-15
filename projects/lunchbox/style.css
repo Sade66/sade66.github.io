@@ -9,16 +9,16 @@ header > h1 {
 }
 .intro > h1 {
   font-family: Days One;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #fb2e01;
 }
 .intro > h2 {
   font-family: Passion One;
   color: #425767;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 .intro > p {
   font-family: Passion One;
   color: #425767;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
