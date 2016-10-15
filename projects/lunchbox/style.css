@@ -1,3 +1,6 @@
+body {
+  padding: 0;
+}
 html {
   background: #fffeb3;
 }
@@ -9,7 +12,8 @@ header > h1 {
 }
 header > nav > ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: -20px;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
   background-color: #333;
