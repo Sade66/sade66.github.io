@@ -1,6 +1,9 @@
+html {
+  background: #fffeb3;
+}
 header > h1 {
   font-family: Ruslan Display;
   font-size: 5em;
   text-align: center;
-  color: #a3172a;
+  color: #6fcb9f;
 }
