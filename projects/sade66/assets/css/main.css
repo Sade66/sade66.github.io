@@ -1,0 +1,27 @@
+/*MENU BAR*/
+
+.Menu_Bar {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+/*DESKTOP*/
+
+.Desktop {
+
+}
+
+/*DOCK*/
+
+.Dock {
+
+}
+
+/*OTHER*/
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
