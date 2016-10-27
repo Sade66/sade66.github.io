@@ -1,7 +1,9 @@
 /*MENU BAR*/
 
 .Menu_Bar {
-  background: rgba(255, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /*DESKTOP*/
