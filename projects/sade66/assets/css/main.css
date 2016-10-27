@@ -2,7 +2,10 @@
 
 .Menu_Bar {
   margin: 0;
-  padding: 6px;
+  padding-left: 15px;
+  padding-top: 0.25px;
+  padding-right: 15px;
+  padding-bottom: 0.25px;
   background: rgba(0, 0, 0, 0.5);
 }
 
