@@ -11,7 +11,7 @@
 .Menu_Bar > ul {
   font-family: Lato;
   margin: 0;
-  padding: 0;
+  padding: 3px;
   text-decoration: none;
   list-style-type: none;
   margin: 0 auto;
