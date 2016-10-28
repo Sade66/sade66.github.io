@@ -7,6 +7,7 @@
   padding-right: 15px;
   padding-bottom: 0.25px;
   background: rgba(0, 0, 0, 0.5);
+  position: fixed;
 }
 .Menu_Bar > ul {
   font-family: Lato;
@@ -16,7 +17,6 @@
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
-  position: fixed;
 }
 .Menu_Bar > ul > li {
 
