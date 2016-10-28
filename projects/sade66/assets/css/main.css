@@ -8,6 +8,10 @@
   padding-bottom: 0.25px;
   background: rgba(0, 0, 0, 0.5);
 }
+.Menu_Bar > p {
+  margin: 0;
+  padding: 0;
+}
 
 /*DESKTOP*/
 
