@@ -8,6 +8,7 @@
   padding-bottom: 0.25px;
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
+  width: 100%;
 }
 .Menu_Bar > ul {
   font-family: Lato;
