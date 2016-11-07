@@ -48,12 +48,12 @@ header img {
 }
 #topInfo ul li a {
   text-decoration: none;
-  color: #FC4A1A;
+  color: orange;
 }
 #topInfo ul li a:hover {
   text-decoration: none;
   color: white;
-  background: grey;
+  background: orange;
 }
 #topInfo ul {
   font-size: 20px;
