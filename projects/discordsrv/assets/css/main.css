@@ -82,7 +82,8 @@ header img {
 }
 #perms {
   padding-right: 50%;
-  padding-top: 1px;
-  padding-bottom: 1px;
-
+}
+#perms p,h3 {
+  padding-top: -5px;
+  padding-bottom: -5px;
 }
