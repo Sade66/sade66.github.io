@@ -1,4 +1,7 @@
 @media screen and (max-width: 640px) {
+  body {
+    padding: 10px;
+  }
   header {
     background: #FFFFFF url('../../assets/img/header.jpg');
     background-size: cover;
@@ -86,4 +89,24 @@ header img {
 #perms p,h3 {
   padding-top: -5px;
   padding-bottom: -5px;
+}
+
+footer {
+  text-align: center;
+  font-family: Exo;
+  font-size: 10px;
+}
+footer h2 strong a {
+  text-decoration: none;
+  color: teal;
+}
+footer h2 strong a:hover {
+  color: white;
+  background: teal;
+}
+footer .redHeart {
+  color: red;
+}
+footer .greyCode {
+  color: grey;
 }
