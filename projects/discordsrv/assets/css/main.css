@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  color: #000000;
+  background-image: url(assets/img/header.jpg);
+}
+header img {
+  display: block;
+}
+
+#topInfo h1 {
+  font-family: Play;
+  font-size: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#topInfo h2 {
+  font-family: Play;
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+}
+#topInfo ul li a {
+  text-decoration: none;
+  color: #FC4A1A;
+}
+#topInfo ul li a:hover {
+  text-decoration: none;
+  color: white;
+  background: grey;
+}
+#topInfo ul {
+  font-size: 20px;
+  font-family: Play;
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 10px;
+}
