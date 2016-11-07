@@ -83,6 +83,9 @@ header img {
   font-size: 15px;
   padding-right: 50%;
 }
+#install ol {
+  list-style-type: none;
+}
 #perms {
   padding-right: 50%;
 }
