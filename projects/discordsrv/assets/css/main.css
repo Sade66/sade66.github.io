@@ -1,7 +1,8 @@
 header {
   color: #000000;
-  background-image: url(assets/img/header.jpg);
+  background: url(assets/img/header.jpg);
   width: 100%;
+  height: auto;
 }
 header img {
   display: block;
