@@ -2,6 +2,9 @@ body,html {
   padding: 0;
   margin: 0;
 }
+body {
+  background: #FFFFFF url('../../assets/img/greybg.jpg');
+}
 header {
   background: #FFFFFF url('../../assets/img/header.jpg');
   background-size: cover;
