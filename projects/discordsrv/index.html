@@ -26,3 +26,35 @@
     <p>As well as that, this plugin also has a remote console feature. You can designate a text channel for the plugin to listen on where messages sent to that channel are run as commands by the server console. You should restrict sending this channel to a developer or high ranking role only. Due to how Discord's permissions work, though, you can have some server roles being able to see the console, yet not being able to send messages in that channel, thus creating a read-only console for trusted staff members.</p>
     <p>Both the chat and console link are toggleable through the configuration file. Some, but not all, options can be refreshed with /discord reload, by an op. VanishNoPacket permissions like silent join/quit, fake join/quit and join without announcing are checked when sending player join messages in the chat channel.</p>
   </div>
+  <div class="info">
+    <h2>Install</h2>
+    <p>It's recommended to go to DiscordSRV's wiki at <a href="https://github.com/Scarsz/DiscordSRV/wiki/Installation">https://github.com/Scarsz/DiscordSRV/wiki/Installation</a> for picture instructions to install DiscordSRV but you can just follow these steps if you want a straight forward install.</p>
+    <ol>
+      <li>Create a new application at <a href="https://discordapp.com/developers/applications/me/create">https://discordapp.com/developers/applications/me/create</a></li>
+      <li>On the application's page, click "<strong>Create a Bot User</strong>" and confirm</li>
+      <li>Install the plugin, run & stop the server, then open the configuration file</li>
+      <li>Paste in the token from the application page to the config</li>
+      <li>Go to <a href="https://discordapp.com/oauth2/authorize?scope=bot&client_id=1234567890">https://discordapp.com/oauth2/authorize?scope=bot&client_id=1234567890</a>, replacing the client_id value with your application's client ID and authorize the bot to your server</li>
+      <li>In the channels.json file, input your global chat channel's ID under "global"- you can set more channels up here and their linked channels.</li>
+      <ul>
+        <li>For reference, to obtain a channel ID, go to the cog on the bottom left of Discord, go to the appearance tab, enable developer mode. From there you can right click a guild, channel, user, or role and there will be a "Copy ID" option</li>
+      </ul>
+      <li>Optionally add a console channel's ID in the main config.yml</li>
+      <li>Run through all the config's options, you'll be surprised with how many features this plugin has</li>
+      <li>Profit</li>
+    </ol>
+  </div>
+  <div class="info">
+    <h2>Supported Plugins</h2>
+    <p>DiscordSRV implements with a fair amount of plugins for chat and vanish functionality. We recommend <a href="https://www.spigotmc.org/resources/venturechat.771/">VentureChat by Aust1n46</a> but plugins such as Herochat, VentureChat, Essentials, Premium/Super vanish, VanishNoPacket, and Multiverse all have functionality in DiscordSRV.</p>
+  </div>
+  <div class="info" id="perms">
+    <h2>Commands / Permissions</h2>
+    <h3>/discord</h3>
+    <p>All of DiscordSRV's commands can be exposed from /discord. This includes but isn't limited to /discord toggle which toggles sending Discord messages back/forth for you- tell your players about this command!</p>
+    <h3>discordsrv.chat</h3>
+    <p>Allows people to have their chat sent to Discord. Go figure. Given by default, only exists so you can negate this permission from people/groups.</p>
+    <h3>OP</h3>
+    <p>All the admin commands for DiscordSRV require you to be an OP. To see the help, run /discordsrv in-game.</p>
+  </div>
+</body>
