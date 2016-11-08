@@ -5,65 +5,12 @@
   <link href="assets/css/main.css" type="text/css" rel="stylesheet"/>
   <link href="assets/css/twemoji-awesome.css" type="text/css" rel="stylesheet"/>
   <script src="https://use.fontawesome.com/b0690ead90.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Exo|Maven+Pro|Play|Questrial|Righteous|Russo+One|Share" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Exo|Maven+Pro|Play|Questrial|Righteous|Russo+One|Share|Bubbler+One|Iceland|Passero+One" rel="stylesheet"/>
 </head>
 <body>
   <header>
-    <img src="assets/img/banner.png"/>
-  </header>
-  <hr id="headerSplit"/>
-  <div id="topInfo">
+    <img src="assets/img/logo.png" />
     <h1>DiscordSRV</h1>
     <h2>The most powerful, configurable, widely loved, open-source Discord bridge plugin out there.</h2>
-    <ul>
-      <li><i class="fa fa-server"> </i><a href="http://scarsz.tech:8080/job/DiscordSRV/"> Build server - get the absolute latest builds (or old ones) here</a></li>
-      <li><i class="fa fa-coffee"> </i><a href="http://scarsz.tech/comparison"> Competition - See why you should be using DiscordSRV over the competitors</a></li>
-      <li><img src="assets/img/dc.png"/> <a href="https://discord.gg/au3S5q3"> &nbsp;DiscordSRV's Discord channel - come here for quick support and to tell us feature requests</a></li>
-      <li><i class="fa fa-github"> </i><a href="https://github.com/Scarsz/DiscordSRV"> &nbsp;Source at GitHub</a></li>
-    </ul>
-  </div>
-  <div class="info" id="usage">
-    <h2>Intended Usage</h2>
-    <p>Using this plugin, you are able to give players the ability to chat in-game to chat with players on your Discord server as well as having people on the Discord server be able to chat with people on the server- this is useful for the situation of someone not being at their computer and being able to talk in-game.</p>
-    <p>As well as that, this plugin also has a remote console feature. You can designate a text channel for the plugin to listen on where messages sent to that channel are run as commands by the server console. You should restrict sending this channel to a developer or high ranking role only. Due to how Discord's permissions work, though, you can have some server roles being able to see the console, yet not being able to send messages in that channel, thus creating a read-only console for trusted staff members.</p>
-    <p>Both the chat and console link are toggleable through the configuration file. Some, but not all, options can be refreshed with /discord reload, by an op. VanishNoPacket permissions like silent join/quit, fake join/quit and join without announcing are checked when sending player join messages in the chat channel.</p>
-  </div>
-  <div class="info" id="download">
-    <h2>Download</h2>
-    <p>You can download DiscordSRV from <a href="">Bukkit</a>, <a href="">Spigot</a>, <a href="">GitHub</a>, or the <a href="">build server</a>. just select the source you want and download.
-  </div>
-  <div class="info" id="install">
-    <h2>Install</h2>
-    <p>It's recommended to go to DiscordSRV's wiki at <a href="https://github.com/Scarsz/DiscordSRV/wiki/Installation">https://github.com/Scarsz/DiscordSRV/wiki/Installation</a> for picture instructions to install DiscordSRV but you can just follow these steps if you want a straight forward install.</p>
-    <ol>
-      <li><i class="twa twa-one"> </i> Create a new application at <a href="https://discordapp.com/developers/applications/me/create">https://discordapp.com/developers/applications/me/create</a></li>
-      <li><i class="twa twa-two"> </i> On the application's page, click "<strong>Create a Bot User</strong>" and confirm</li>
-      <li><i class="twa twa-three"> </i> Install the plugin, run & stop the server, then open the configuration file</li>
-      <li><i class="twa twa-four"> </i> Paste in the token from the application page to the config</li>
-      <li><i class="twa twa-five"> </i> Go to <a href="https://discordapp.com/oauth2/authorize?scope=bot&client_id=1234567890">https://discordapp.com/oauth2/authorize?scope=bot&client_id=1234567890</a>, replacing the client_id value with your application's client ID and authorize the bot to your server</li>
-      <li><i class="twa twa-six"> </i> In the channels.json file, input your global chat channel's ID under "global"- you can set more channels up here and their linked channels.</li>
-      <ul>
-        <li>For reference, to obtain a channel ID, go to the cog on the bottom left of Discord, go to the appearance tab, enable developer mode. From there you can right click a guild, channel, user, or role and there will be a "Copy ID" option</li>
-      </ul>
-      <li><i class="twa twa-seven"> </i> Optionally add a console channel's ID in the main config.yml</li>
-      <li><i class="twa twa-eight"> </i> Run through all the config's options, you'll be surprised with how many features this plugin has</li>
-      <li><i class="twa twa-nine"> </i> Profit</li>
-    </ol>
-  </div>
-  <div class="info" id="plugins">
-    <h2>Supported Plugins</h2>
-    <p>DiscordSRV implements with a fair amount of plugins for chat and vanish functionality. We recommend <a href="https://www.spigotmc.org/resources/venturechat.771/">VentureChat by Aust1n46</a> but plugins such as Herochat, VentureChat, Essentials, Premium/Super vanish, VanishNoPacket, and Multiverse all have functionality in DiscordSRV.</p>
-  </div>
-  <div class="info" id="perms">
-    <h2>Commands / Permissions</h2>
-    <h3>/discord</h3>
-    <p>All of DiscordSRV's commands can be exposed from /discord. This includes but isn't limited to /discord toggle which toggles sending Discord messages back/forth for you- tell your players about this command!</p>
-    <h3>discordsrv.chat</h3>
-    <p>Allows people to have their chat sent to Discord. Go figure. Given by default, only exists so you can negate this permission from people/groups.</p>
-    <h3>OP</h3>
-    <p>All the admin commands for DiscordSRV require you to be an OP. To see the help, run /discordsrv in-game.</p>
-  </div>
-  <footer>
-    <h2><i class="fa fa-code greyCode"> </i> with <i class=" fa fa-heart redHeart"> </i> by <strong><a href="https://sade66.cf">Sade66</a></strong></h2>
-  </footer>
-</body>
+  </header>
+  <hr id="headerHD"/>

@@ -1,0 +1,139 @@
+ media screen and (max-width: 640px) {
+  body {
+    padding: 10px;
+  }
+  header {
+    background: #FFFFFF url('../../assets/img/header.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  header img {
+    width: 400px;
+  }
+}
+
+body,html {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: #FFFFFF url('../../assets/img/header.jpg');
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+#headerSplit {
+  padding: 0;
+  margin: 0;
+  border: 5px solid grey;
+}
+header img {
+  display: block;
+}
+
+#topInfo h1 {
+  font-family: Play;
+  font-size: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-left: 35px;
+}
+#topInfo h2 {
+  font-family: Play;
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 35px;
+}
+#topInfo ul li a {
+  text-decoration: none;
+  color: orange;
+}
+#topInfo ul li a:hover {
+  text-decoration: none;
+  color: white;
+  background: orange;
+}
+#topInfo ul {
+  font-size: 20px;
+  font-family: Play;
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.info {
+  font-family: Maven Pro;
+  padding: 5px 35px 5px 35px;
+}
+.info a {
+  text-decoration: none;
+  color: red;
+}
+.info a:hover {
+  text-decoration: none;
+  color: white;
+  background: red;
+}
+.info ol ul li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  padding-right: 50%;
+}
+#install ol {
+  list-style-type: none;
+}
+#perms {
+  padding-right: 50%;
+}
+#perms p {
+  padding-top: 0;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+#perms h3 {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.code {
+  border: 3px solid #58626f;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 15px;
+  background: #ecf0f5;
+}
+.code p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: monospace;
+}
+#vanishCode span {
+  color: #ca9b07;
+}
+
+footer {
+  text-align: center;
+  font-family: Exo;
+  font-size: 10px;
+}
+footer h2 strong a {
+  text-decoration: none;
+  color: teal;
+}
+footer h2 strong a:hover {
+  color: white;
+  background: teal;
+}
+footer .redHeart {
+  color: red;
+}
+footer .greyCode {
+  color: grey;
+}
