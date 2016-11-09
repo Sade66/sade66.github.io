@@ -73,6 +73,57 @@ header img {
   margin: 0;
 }
 
+.container button {
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Share;
+  padding: 8px;
+  margin: 5px;
+}
+.container button:hover {
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Share;
+  padding: 8px;
+  margin: 5px;
+}
+#buildSrv button {
+  background: white;
+  border: 1px solid #2ECC40;
+}
+#buildSrv button:hover {
+  background: #2ECC40;
+  border: 1px solid #2ECC40;
+  color: white;
+}
+#compete button {
+  background: white;
+  border: 1px solid #FF4136;
+}
+#compete button:hover {
+  background: #FF4136;
+  border: 1px solid #FF4136;
+  color: white;
+}
+#discordChat button {
+  background: white;
+  border: 1px solid #7FDBFF;
+}
+#discordChat button:hover {
+  background: #7FDBFF;
+  border: 1px solid #7FDBFF;
+  color: white;
+}
+#git button {
+  background: white;
+  border: 1px solid #AAAAAA;
+}
+#git button:hover {
+  background: #AAAAAA;
+  border: 1px solid #AAAAAA;
+  color: white;
+}
+
 #buildSrv i {
   color: #2ECC40;
 }
@@ -86,15 +137,90 @@ header img {
   color: #AAAAAA;
 }
 
+/***********/
+/* CONTENT */
+/*********&*/
+
+#about {
+  text-align: center;
+  margin: 10px 15% 10px 15%;
+}
+#about h2 {
+  font-size: 50px;
+  font-family: Passero One;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#about p {
+  font-family: Play;
+  font-size: 25px;
+}
+#otherResources {
+  text-align: center;
+  margin: 10px 15% 10px 15%;
+}
+#otherResources h2 {
+  font-size: 50px;
+  font-family: Passero One;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#otherResources p {
+  font-family: Play;
+  font-size: 25px;
+}
+
+#otherResources button {
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Share;
+  padding: 8px;
+  margin: 5px;
+}
+#otherResources button:hover {
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Share;
+  padding: 8px;
+  margin: 5px;
+}
+#otherResources .download {
+  background: white;
+  border: 1px solid #FF4136;
+}
+#otherResources .download:hover {
+  background: #FF4136;
+  border: 1px solid #FF4136;
+  color: white;
+}
+#otherResources #installButton {
+  background: white;
+  border: 1px solid #2ECC40;
+}
+#otherResources #installButton:hover {
+  background: #2ECC40;
+  border: 1px solid #2ECC40;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+}
+.link:hover {
+  text-decoration: none;
+  color: white;
+  background: red;
+}
+
 /**********/
 /* FOOTER */
 /**********/
 
-
 footer {
   text-align: center;
   font-family: Exo;
-  font-size: 10px;
+  font-size: 15px;
 }
 footer h2 strong a {
   text-decoration: none;
