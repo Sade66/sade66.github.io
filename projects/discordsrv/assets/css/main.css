@@ -259,7 +259,10 @@ footer .greyCode {
 /*Mobile Devices...*/
 
 @media screen and (min-width: 500px) {
-    .about,.otherResources {
-        float:none
+    *{
+        margin: 0;
+        width: 0;
+        float: none;
+        text-align: center;
     }
 }
