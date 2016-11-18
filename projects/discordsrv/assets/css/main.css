@@ -259,5 +259,6 @@ footer .greyCode {
 @media screen and (max-width: 500px) {
     .about,.otherResources {
         display: inline;
+        margin: 5px;
     }
 }
