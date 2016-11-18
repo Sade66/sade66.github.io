@@ -3,6 +3,10 @@ body,html {
   padding: 0;
   margin: 0;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 
 /**********/
 /* HEADER */
@@ -145,9 +149,6 @@ header img {
   width: 100%;
   text-align: center;
 }
-#pl {
-  float: left;
-}
 .about {
   vertical-align: top;
   text-align: center;
@@ -253,4 +254,12 @@ footer .redHeart {
 }
 footer .greyCode {
   color: grey;
+}
+
+/*Mobile Devices...*/
+
+@media screen and (min-width: 500px) {
+    .about,.otherResources {
+        float:none
+    }
 }
