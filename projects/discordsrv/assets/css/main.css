@@ -175,7 +175,7 @@ header img {
 .otherResources h2 {
   font-size: 50px;
   font-family: Maven Pro;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   padding-bottom: 0;
 }
 .otherResources p {
