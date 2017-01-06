@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com" resolutions="1x" timestamp="1483743525141">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com,https://sade66.github.io/*" resolutions="1x" timestamp="1483744185430">
   <folder name="css">
     <file name="site_global.css" crc="426388739"/>
     <file name="index.css" crc="442046568" ref="index"/>
@@ -52,5 +52,5 @@
     <file name="placeholder-crop-u986.jpg" crc="479291352" ref="index"/>
     <file name="heart.png" crc="117585526" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="227543881" seo="true" mt="1483742873968" redirect="true"/>
+  <file name="index.html" crc="4108843499" seo="true" mt="1483743719775" redirect="true"/>
 </manifest>
