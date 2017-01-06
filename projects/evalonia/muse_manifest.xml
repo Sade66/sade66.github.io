@@ -1,0 +1,56 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com" resolutions="1x" timestamp="1483742891208">
+  <folder name="css">
+    <file name="site_global.css" crc="426388739"/>
+    <file name="index.css" crc="442046568" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="evalonia-full-logo.eps" crc="3977313232" seo="true" mt="1483410306000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
+    <file name="form_check.php" crc="158155501" ref="index"/>
+    <file name="form_throttle.php" crc="3992970984" ref="index"/>
+    <file name="form_process.php" crc="4078697226" ref="index"/>
+    <file name="form-u563.php" crc="162531059" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="placeholder.jpg" crc="4051531941" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="pexels-photo-193350.jpg" crc="286768746" seo="true" ref="index"/>
+    <file name="pexels-photo.jpg" crc="530534980" seo="true" ref="index"/>
+    <file name="pexels-photo-177598.jpg" crc="4205920335" seo="true" ref="index"/>
+    <file name="pexels-photo-214221.jpg" crc="4281280699" seo="true" ref="index"/>
+    <file name="pexels-photo-233698.jpg" crc="3767052623" seo="true" ref="index"/>
+    <file name="pexels-photo-196713.jpg" crc="4270516063" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="evalonia full logo.png" crc="195290300" seo="true" ref="index"/>
+    <file name="pexels-photo-202553.jpg" crc="3793002646" ref="index"/>
+    <file name="qoutes.png" crc="49248888" seo="true" ref="index"/>
+    <file name="placeholder-crop-u1054.jpg" crc="3991226524" ref="index"/>
+    <file name="placeholder-crop-u1039.jpg" crc="4091271339" ref="index"/>
+    <file name="placeholder-crop-u1050.jpg" crc="3768358986" ref="index"/>
+    <file name="pexels-photo-203069-u939-fr.png" crc="320163575" ref="index"/>
+    <file name="placeholder-crop-u953.jpg" crc="3976404078" ref="index"/>
+    <file name="icon4.png" crc="209647003" seo="true" ref="index"/>
+    <file name="icon3.png" crc="3961184872" seo="true" ref="index"/>
+    <file name="icon2.png" crc="121253092" seo="true" ref="index"/>
+    <file name="icon1.png" crc="4197530190" seo="true" ref="index"/>
+    <file name="placeholder-crop-u959.jpg" crc="216999751" ref="index"/>
+    <file name="placeholder-crop-u986.jpg" crc="479291352" ref="index"/>
+    <file name="heart.png" crc="117585526" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4150403697" seo="true" mt="1483742873968" redirect="true"/>
+</manifest>
