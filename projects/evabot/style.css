@@ -1,6 +1,7 @@
 body, html {margin: 0; border: 0;}
 table {
     border-collapse: collapse;
+    width: 100%
 }
 th, td {
     text-align: left;
@@ -17,5 +18,5 @@ th {
 .tableOnline{width: 40%;}
 .tableAvatar img {
   border-radius: 100%;
-  width: 10%;
+  width: 100%;
 }
