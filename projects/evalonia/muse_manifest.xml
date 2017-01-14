@@ -1,10 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com,https://sade66.github.io/*" resolutions="1x" timestamp="1484419097817">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com,https://sade66.github.io/*" resolutions="1x" timestamp="1484423872860">
   <folder name="css">
     <file name="site_global.css" crc="414491004"/>
-    <file name="index.css" crc="3797412266" ref="index"/>
+    <file name="index.css" crc="424125394" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="evalonia-full-logo.eps" crc="3977313232" seo="true" mt="1483410306000"/>
+    <file name="evalonia-full-logo.png" crc="195290300" seo="true" mt="1483410330000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -37,14 +38,15 @@
     <file name="2016-02-27_032505.jpg" crc="4094032126" seo="true" ref="index"/>
     <file name="2016-03-25_103031.jpg" crc="3768531752" seo="true" ref="index"/>
     <file name="2016-03-30_014353.jpg" crc="3966611339" seo="true" ref="index"/>
-    <file name="2016-02-25_191018.jpg" crc="61807337" ref="index" seo="true"/>
+    <file name="2016-02-25_191018.jpg" crc="3939092690" ref="index" seo="true"/>
     <file name="2016-02-26_233525.jpg" crc="304607347" ref="index"/>
     <file name="2016-03-30_014353-u939-fr.png" crc="4065919685" ref="index"/>
     <file name="pasted image 150x149-crop-u953.jpg" crc="4016066269" ref="index"/>
     <file name="pasted image 150x149-crop-u959.jpg" crc="3870900167" ref="index"/>
     <file name="pasted image 150x149-crop-u986.jpg" crc="531952564" ref="index"/>
-    <file name="2016-02-26_233906.jpg" crc="4118730772" seo="true" ref="index"/>
-    <file name="2016-03-30_014353307x165.jpg" crc="4257926335" seo="true" ref="index"/>
+    <file name="2016-02-26_233906.jpg" crc="272876073" seo="true" ref="index"/>
+    <file name="evalonia-~-home-favicon.ico" crc="79672530" ref="index"/>
+    <file name="2016-03-30_014353352x189.jpg" crc="3831476725" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="432997330" seo="true" mt="1484419092451" redirect="true"/>
+  <file name="index.html" crc="3824440259" seo="true" mt="1484423848127" redirect="true"/>
 </manifest>

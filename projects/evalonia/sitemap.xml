@@ -7,6 +7,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mcevalonia.com/assets/evalonia-full-logo.png</loc>
+    <lastmod>2017-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mcevalonia.com/images/evalonia%20full%20logo.png</loc>
     <lastmod>2017-01-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -67,7 +73,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mcevalonia.com/images/2016-03-30_014353307x165.jpg</loc>
+    <loc>https://mcevalonia.com/images/2016-03-30_014353352x189.jpg</loc>
     <lastmod>2017-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
