@@ -1,10 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com,https://sade66.github.io/*" resolutions="1x" timestamp="1483744185430">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="https://mcevalonia.com,https://sade66.github.io/*" resolutions="1x" timestamp="1484376283774">
   <folder name="css">
-    <file name="site_global.css" crc="426388739"/>
-    <file name="index.css" crc="442046568" ref="index"/>
+    <file name="site_global.css" crc="487627677"/>
+    <file name="index.css" crc="354677148" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="evalonia-full-logo.eps" crc="3977313232" seo="true" mt="1483410306000"/>
+    <file name="evalonia-circle-logo.ai" crc="4282782759" seo="true" mt="1483395364000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -27,30 +28,24 @@
     <file name="require.js" crc="244322403" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="placeholder.jpg" crc="4051531941" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="pexels-photo-193350.jpg" crc="286768746" seo="true" ref="index"/>
-    <file name="pexels-photo.jpg" crc="530534980" seo="true" ref="index"/>
-    <file name="pexels-photo-177598.jpg" crc="4205920335" seo="true" ref="index"/>
-    <file name="pexels-photo-214221.jpg" crc="4281280699" seo="true" ref="index"/>
-    <file name="pexels-photo-233698.jpg" crc="3767052623" seo="true" ref="index"/>
-    <file name="pexels-photo-196713.jpg" crc="4270516063" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="evalonia full logo.png" crc="195290300" seo="true" ref="index"/>
-    <file name="pexels-photo-202553.jpg" crc="3793002646" ref="index"/>
-    <file name="qoutes.png" crc="49248888" seo="true" ref="index"/>
-    <file name="placeholder-crop-u1054.jpg" crc="3991226524" ref="index"/>
-    <file name="placeholder-crop-u1039.jpg" crc="4091271339" ref="index"/>
-    <file name="placeholder-crop-u1050.jpg" crc="3768358986" ref="index"/>
-    <file name="pexels-photo-203069-u939-fr.png" crc="320163575" ref="index"/>
-    <file name="placeholder-crop-u953.jpg" crc="3976404078" ref="index"/>
-    <file name="icon4.png" crc="209647003" seo="true" ref="index"/>
-    <file name="icon3.png" crc="3961184872" seo="true" ref="index"/>
-    <file name="icon2.png" crc="121253092" seo="true" ref="index"/>
-    <file name="icon1.png" crc="4197530190" seo="true" ref="index"/>
-    <file name="placeholder-crop-u959.jpg" crc="216999751" ref="index"/>
-    <file name="placeholder-crop-u986.jpg" crc="479291352" ref="index"/>
-    <file name="heart.png" crc="117585526" seo="true" ref="index"/>
+    <file name="2016-02-25_185846.jpg" crc="3881506043" seo="true" ref="index"/>
+    <file name="2016-02-25_190217.jpg" crc="3856498217" seo="true" ref="index"/>
+    <file name="2016-02-25_190540.jpg" crc="407598769" seo="true" ref="index"/>
+    <file name="2016-02-26_233611.jpg" crc="4247960433" seo="true" ref="index"/>
+    <file name="2016-02-27_032505.jpg" crc="4094032126" seo="true" ref="index"/>
+    <file name="2016-03-25_103031.jpg" crc="3768531752" seo="true" ref="index"/>
+    <file name="2016-03-30_014353.jpg" crc="3966611339" seo="true" ref="index"/>
+    <file name="2016-02-27_032615.jpg" crc="55757246" ref="index"/>
+    <file name="2016-02-25_191018.jpg" crc="476338738" ref="index"/>
+    <file name="2016-02-27_032437.jpg" crc="253423169" ref="index"/>
+    <file name="2016-02-26_233525.jpg" crc="304607347" ref="index"/>
+    <file name="2016-03-30_014353-u939-fr.png" crc="4065919685" ref="index"/>
+    <file name="pasted image 150x149-crop-u953.jpg" crc="4075922621" ref="index"/>
+    <file name="pasted image 150x149-crop-u959.jpg" crc="93597286" ref="index"/>
+    <file name="pasted image 150x149-crop-u986.jpg" crc="3995385085" ref="index"/>
   </folder>
-  <file name="index.html" crc="4108843499" seo="true" mt="1483743719775" redirect="true"/>
+  <file name="index.html" crc="469060866" seo="true" mt="1484376267657" redirect="true"/>
 </manifest>
