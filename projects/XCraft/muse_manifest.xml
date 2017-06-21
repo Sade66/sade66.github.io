@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="xcraftnetwork.com" resolutions="1x,2x" timestamp="1498009984479">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="xcraftnetwork.com,sade66.github.io/projects/XCraft" resolutions="1x,2x" timestamp="1498010318927">
   <folder name="css">
     <file name="site_global.css" crc="28420340"/>
-    <file name="index.css" crc="4008450228" ref="index"/>
+    <file name="index.css" crc="4289744560" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -17,5 +17,5 @@
     <file name="pasted image 800x800_2x.png" crc="17046199" seo="true" ref="index"/>
     <file name="xcraft.jpg" crc="345672783" ref="index"/>
   </folder>
-  <file name="index.html" crc="4200288276" seo="true" mt="1498009936780" redirect="true"/>
+  <file name="index.html" crc="4031894897" seo="true" mt="1498010263874" redirect="true"/>
 </manifest>
