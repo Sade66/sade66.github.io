@@ -1,55 +1,35 @@
 <!DOCTYPE html>
 <head>
   <title>HHS Deca</title>
-  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Rubik|Yantramanav:900" rel="stylesheet">
   <script src="/cdn-cgi/apps/head/gp0DCcNu51paT48DWyyF26-tybg.js"></script><link rel="icon" href="favicon.ico">
-  <style>
-    body{
-    /*Remove below line to make bgimage NOT fixed*/
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    /*Use center center in place of 300 200 to center bg image*/
-    background-position: 300 200;
-    }
-    </style>
-
-    <script language="JavaScript1.2">
-    var bgimages=new Array()
-    bgimages[0]="assets/img/main1.png"
-    bgimages[1]="assets/img/main2.png"
-    bgimages[2]="assets/img/main3.png"
-    bgimages[3]="assets/img/main4.png"
-    bgimages[4]="assets/img/main5.png"
-    bgimages[5]="assets/img/main6.png"
-    bgimages[6]="assets/img/main7.png"
-
-    //preload images
-    var pathToImg=new Array()
-    for (i=0;i<bgimages.length;i++){
-    pathToImg[i]=new Image()
-    pathToImg[i].src=bgimages[i]
-    }
-
-    var inc=-1
-
-    function bgSlide(){
-    if (inc<bgimages.length-1)
-    inc++
-    else
-    inc=0
-    document.body.background=pathToImg[inc].src
-    }
-
-    if (document.all||document.getElementById)
-    window.onload=new Function('setInterval("bgSlide()",3000)')
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/background.cycle.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("body").backgroundCycle({
+        imageUrls: [
+          'assets/img/main1.png',
+          'assets/img/main2.png',
+          'assets/img/main3.png',
+          'assets/img/main4.png',
+          'assets/img/main5.png',
+          'assets/img/main6.png',
+          'assets/img/main7.png'
+        ],
+        fadeSpeed: 3500,
+        duration: 7000,
+        backgroundSize: SCALING_MODE_COVER
+      });
+    });
   </script>
 <!-- Developed by Sam Delagrange-->
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="animated bounceIn">
       <ul>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">JOIN</a></li>
@@ -57,11 +37,11 @@
       </ul>
     </nav>
   </header>
-  <h1 id="home_title">HOMESTEAD<br/> DECA</h1>
+  <h1 id="home_title" class="animated fadeIn">HOMESTEAD<br/> DECA</h1>
   <footer>
-    <p id="copyright">Copyright &copy; 2017<p>
-    <p id="developer">Developed by <a href="https://sade66.me">Sam Delagrange</a></p>
-    <p id="notice">This web site is maintained by the Homestead High School DECA group and is not a part of
+    <p id="copyright" class="animated slideInLeft">Copyright &copy; 2017<p>
+    <p id="developer" class="animated slideInRight">Developed by <a href="https://sade66.me">Sam Delagrange</a></p>
+    <p id="notice" class="animated fadeInUp">This web site is maintained by the Homestead High School DECA group and is not a part of
                     Homestead High School or the Southwest Allen County School District. Neither Homestead
                     High School nor SACS is responsible for the content of this web site or the content of
                     inks external to this web site.</p>
