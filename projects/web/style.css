@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=750&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding: 5px;
+  text-align: center;
+  background: rgba(50, 50, 50, 0.7);
+}
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+}
+nav li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  padding-left: -10px;
+  float: left;
+}
+nav a:hover {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 100;
+  color: #f76767;
+
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  font-family: Oswald;
+  color: #FFFFFF;
+  font-size: 23px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: Raleway;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px black;
+}
